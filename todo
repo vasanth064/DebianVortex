@@ -1,0 +1,16 @@
+# Add current user to the sudo group --done
+# Add Debian Testing repo --done
+# Change to Gnome 40 --done
+# copy extensions folder
+# automate turning on the extensions
+# gnome terminal font change
+# Add scripts to crontab to run on startup
+
+# Automatically set favorite apps to dock --done
+# Automatically arrange apps in app menu 
+# Change Gedit Theme
+# Make a Instructions file
+# Create a script that combines all of these
+
+# Debain weekly build -> offline GNOME
+https://cdimage.debian.org/cdimage/unofficial/non-free/images-including-firmware/weekly-live-builds/amd64/iso-hybrid/

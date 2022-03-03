@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="libreoffice-writer.desktop" score="2.25" last-seen="1644090615"/>
+    <application id="org.gnome.FileRoller.desktop" score="4.5" last-seen="1644070103"/>
+    <application id="org.gnome.tweaks.desktop" score="0.5" last-seen="1643483201"/>
+    <application id="google-chrome.desktop" score="82" last-seen="1643992983"/>
+    <application id="libreoffice-draw.desktop" score="0" last-seen="1644090607"/>
+    <application id="gnome-control-center.desktop" score="9.5" last-seen="1644090467"/>
+    <application id="nm-connection-editor.desktop" score="10" last-seen="1644001903"/>
+    <application id="org.gnome.eog.desktop" score="0" last-seen="1644068490"/>
+    <application id="org.gnome.Nautilus.desktop" score="5553.25" last-seen="1644090752"/>
+    <application id="org.gnome.gedit.desktop" score="251.5" last-seen="1644090753"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="0" last-seen="1643745292"/>
+    <application id="msedge-efmjfjelnicpmdcmfikempdhlmainjcb-Default.desktop" score="23" last-seen="1643813073"/>
+    <application id="org.telegram.desktop.desktop" score="116.75" last-seen="1643745325"/>
+    <application id="org.gnome.font-viewer.desktop" score="0" last-seen="1644065155"/>
+    <application id="Alacritty.desktop" score="496.5" last-seen="1644090461"/>
+    <application id="org.gnome.Terminal.desktop" score="210.75" last-seen="1644053189"/>
+    <application id="msedge-cnmnfnkedfekfidgojcdmndbcipagogc-Default.desktop" score="24.5" last-seen="1643877409"/>
+    <application id="microsoft-edge.desktop" score="23720.5" last-seen="1644090747"/>
+    <application id="org.gnome.Evolution.desktop" score="0.75" last-seen="1643558293"/>
+    <application id="synaptic.desktop" score="25.5" last-seen="1644088706"/>
+    <application id="code.desktop" score="1438" last-seen="1644065169"/>
+    <application id="org.nomacs.ImageLounge.desktop" score="1" last-seen="1643556875"/>
+    <application id="vlc.desktop" score="3595.5" last-seen="1643961370"/>
+    <application id="org.gnome.Extensions.desktop" score="22.5" last-seen="1644083542"/>
+    <application id="com.getpostman.Postman.desktop" score="35" last-seen="1644001054"/>
+    <application id="gnome-system-monitor.desktop" score="16.25" last-seen="1643607285"/>
+  </context>
+</application-state>
