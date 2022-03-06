@@ -19,7 +19,7 @@
       <description>You can create a gist from https://gist.github.com/ and use it's id</description>
     </key>
     <key type="s" name="github-user-token">
-      <default>'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'</default>
+      <default>'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'</default>
       <summary>Github token</summary>
       <description>Generate a new token from https://github.com/settings/tokens/new with gist permission and use it</description>
     </key>
