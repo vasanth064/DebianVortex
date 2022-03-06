@@ -14,12 +14,12 @@
 
   <schema path="/org/gnome/shell/extensions/extensions-sync/" id="org.gnome.shell.extensions.extensions-sync">
     <key type="s" name="github-gist-id">
-      <default>2d95772df4d327fe4a0eda9cb359533f</default>
+      <default>'2d95772df4d327fe4a0eda9cb359533f'</default>
       <summary>Gist Id</summary>
       <description>You can create a gist from https://gist.github.com/ and use it's id</description>
     </key>
     <key type="s" name="github-user-token">
-      <default>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</default>
+      <default>'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'</default>
       <summary>Github token</summary>
       <description>Generate a new token from https://github.com/settings/tokens/new with gist permission and use it</description>
     </key>
