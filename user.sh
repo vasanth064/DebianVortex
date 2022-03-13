@@ -5,7 +5,7 @@ sudo cp -rv ./vortexWallpapers /usr/share/backgrounds/
 cp -rv ./.zshrc ~/
 
 #GNOME Settings Sync Extension
-cp -rv ./Configs/extensions-sync@elhan.io/ ~/.local/share/gnome-shell/extensions/
+cp -rv ./Configs/extensions-sync@elhan.io/ ~/.local/share/gnome-shell/extensions/extensions-sync@elhan.io/
 
 #Fonts
 cp -rv ./.fonts ~/
