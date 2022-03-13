@@ -30,7 +30,7 @@ sudo rm -rv /etc/apt/sources.list.d/microsoft-edge-dev.list
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 #Install latest Gnome <40 
-sudo apt -t testing install gnome-shell gnome-backgrounds gnome-applets gnome-control-center mutter gjs gnome-session 
+sudo apt -t testing install gnome-shell gnome-backgrounds gnome-applets gnome-control-center mutter gjs gnome-session -y 
 
 sudo apt update -y
 sudo apt auto-remove -y
@@ -41,4 +41,3 @@ git config --global user.name "vasanth064"
 
 ./cleanDebian.sh
 sudo reboot
-

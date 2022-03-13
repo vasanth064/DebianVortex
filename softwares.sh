@@ -29,10 +29,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge sta
 
 #Installing apt Packages
 sudo apt update -y
-sudo apt install preload vlc gimp gparted flatpak scrcpy adb snapd albert code apt-transport-https -y
-sudo apt install dkms ttf-mscorefonts-installer rar unrar libavcodec-extra snapd microsoft-edge-stable -y
-sudo apt install gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi zsh google-chrome-stable -y
-sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y
+sudo apt install preload vlc gimp gparted flatpak scrcpy adb snapd albert code apt-transport-https dkms ttf-mscorefonts-installer rar unrar libavcodec-extra snapd microsoft-edge-stable gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi zsh google-chrome-stable qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y
 
 #Removing Duplicates form apt Sources
 rm -f packages.microsoft.gpg
@@ -61,7 +58,7 @@ sudo adduser vasanth libvirt-qemu
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 #Install latest Gnome <40 
-sudo apt -t testing install gnome-shell gnome-backgrounds gnome-applets gnome-control-center mutter gjs gnome-session 
+sudo apt -t testing install gnome-shell gnome-backgrounds gnome-applets gnome-control-center mutter gjs gnome-session -y
 
 sudo apt update -y
 sudo apt upgrade -y
