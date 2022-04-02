@@ -25,9 +25,6 @@ cp -rv ./.config ~/  # some default settings and customizations
 #Local
 cp -rv ./.local ~/
 
-#SSH
-cp -rv ./.ssh ~/
-
 #Set Application theme and Icon Pack
 gsettings set org.gnome.desktop.interface gtk-theme "macosDark"
 gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'
@@ -64,7 +61,3 @@ sudo usermod -s /usr/bin/zsh $(whoami)
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/powerlevel10k
 exec zsh
 p10k configure
-
-echo "Completed Enable ExtensionSync"
-echo "Sync Your Settings and install node through NVM"
-echo "nvm install --lts"
