@@ -8,6 +8,7 @@ fi
 # Set up the prompt
 
 #Alias
+#System
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 alias install='sudo apt install'
@@ -15,26 +16,33 @@ alias remove='sudo apt remove'
 alias aremove='sudo apt auto-remove'
 alias rm='rm -rv'
 alias cls='clear'
- 
+
+#Git
+alias gcl='git clone'
+alias gc='git commit -m'
+alias ga='git add'
+alias gs='git status'
+alias gp='git push'
+alias gpl='git pull'
+
+#Yarn
+alias yi='yarn install'
+alias ys='yarn start'
+alias ya='yarn add'
+alias yr='yarn remove'
+
 #Custom Functions
-cra ()
-{
+cra () {
   read -p 'Project Name: ' name
   read -p 'Directory: ' dir
   cd ~/Projects/"$dir" && npx create-react-app -- "$name" && cd -- "$name" && code . && exit
 }
 
-zshrc ()
-{
+zshrc () {
   nano ~/.zshrc
   source ~/.zshrc
+  clear
 }
-
-alcy ()
-{
-  code ~/.config/alacritty/alacritty.yml
-}
-
 vs ()
 {
   code .
